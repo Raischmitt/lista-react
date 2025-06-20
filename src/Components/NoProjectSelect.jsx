@@ -1,7 +1,7 @@
 import logo from '../assets/logo.png';
 import Button from './Button';
 
-export default function NoProjectSelector({onStartAddProject}) {
+export default function NoProjectSelector({ onStartAddProject }) {
     return (
         <div className="flex flex-col items-center justify-center w-full">
             <div className="mt-24 text-center mx-auto">
@@ -10,7 +10,9 @@ export default function NoProjectSelector({onStartAddProject}) {
                     alt="an empty task list"
                     className="w-16 h-16 object-contain mx-auto "
                 />
-                <h2 className="text-xl font-bold text-stone-500 my-4">No project Selected</h2>
+                <h2 className="text-xl font-bold text-stone-500 my-4">
+                    No project Selected
+                </h2>
                 <p className="text-stone-400 mb-4">
                     Select a project or get started with a new one
                 </p>
